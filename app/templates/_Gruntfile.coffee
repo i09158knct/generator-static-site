@@ -49,8 +49,8 @@ module.exports = (grunt) ->
       'public/img': [
       ]
       'public/vendor': [
-        'bootstrap': 'bower_components/bootstrap/dist'
-        'font-awesome': 'bower_components/font-awesome'
+        {'bootstrap': 'bower_components/bootstrap/dist'}
+        {'font-awesome': 'bower_components/font-awesome'}
       ]
 
 
